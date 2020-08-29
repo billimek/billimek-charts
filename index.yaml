@@ -948,6 +948,25 @@ entries:
   duplicati:
   - apiVersion: v1
     appVersion: v2.0.5.1-2.0.5.1_beta_2020-01-18-ls58
+    created: "2020-08-29T21:11:02.965033497Z"
+    description: DEPRECATED - Store securely encrypted backups on cloud storage services!
+    digest: 851c3da85ae104099e7c8201e489d8df4dca24a6940187a7032ec9c8fded94e3
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/duplicati
+    icon: https://i.imgur.com/KjnkhUJ.png
+    keywords:
+    - duplicati
+    maintainers:
+    - email: simon.caron@protonmail.com
+      name: skaro13
+    name: duplicati
+    sources:
+    - https://hub.docker.com/r/linuxserver/duplicati/
+    - https://github.com/duplicati/duplicati
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/duplicati-1.0.3/duplicati-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: v2.0.5.1-2.0.5.1_beta_2020-01-18-ls58
     created: "2020-08-05T17:32:22.307730915Z"
     description: Store securely encrypted backups on cloud storage services!
     digest: 44ef5e723e93363e34fe8fb4cfa66e801e7f07475939972a7a4b6fad66003e8a
