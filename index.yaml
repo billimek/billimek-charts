@@ -4208,6 +4208,25 @@ entries:
   tautulli:
   - apiVersion: v1
     appVersion: v2.1.44-ls34
+    created: "2020-08-29T21:42:40.957774831Z"
+    deprecated: true
+    description: DEPRECATED - A Python based monitoring and tracking tool for Plex
+      Media Server.
+    digest: 6595bd2d1236612964d929ea5704fbf05fe395e9a9f68fb8063d279cb443b8a3
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/tautulli
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
+    keywords:
+    - tautulli
+    - plex
+    name: tautulli
+    sources:
+    - https://hub.docker.com/r/linuxserver/tautulli/
+    - https://tautulli.com/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/tautulli-2.3.3/tautulli-2.3.3.tgz
+    version: 2.3.3
+  - apiVersion: v1
+    appVersion: v2.1.44-ls34
     created: "2020-08-05T17:32:23.366184622Z"
     description: A Python based monitoring and tracking tool for Plex Media Server.
     digest: 75226e76b60197b156290c9b00c9558671dd33008d878d1abec4df8108625720
@@ -4369,6 +4388,28 @@ entries:
   teslamate:
   - apiVersion: v1
     appVersion: v1.19.3
+    created: "2020-08-29T21:42:41.033945349Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.1.0
+    deprecated: true
+    description: "DEPRECATED - A self-hosted data logger for your Tesla \U0001F698"
+    digest: b3469f446f70ccda0db7c9ff37b8087b35810bdb3168e8e1794824f6d1618c05
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/teslamate
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/793px-Tesla_Motors.svg.png
+    keywords:
+    - teslamate
+    - tesla
+    name: teslamate
+    sources:
+    - https://github.com/adriankumpf/teslamate
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/teslamate-2.0.5/teslamate-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v1
+    appVersion: v1.19.3
     created: "2020-05-04T02:01:02.611795972Z"
     dependencies:
     - condition: postgresql.enabled
@@ -4451,6 +4492,25 @@ entries:
   unifi-poller:
   - apiVersion: v1
     appVersion: 2.0.1
+    created: "2020-08-29T21:42:41.098985482Z"
+    deprecated: true
+    description: DEPRECATED - Collect ALL UniFi Controller, Site, Device & Client
+      Data - Export to InfluxDB or Prometheus
+    digest: b83d4a68dabb26b862d7907884f1dc9ad9b0f24231c4ea8fd6a2c8443c104fdb
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/unifi-poller
+    icon: https://raw.githubusercontent.com/wiki/unifi-poller/unifi-poller/images/unifi-poller-logo.png
+    keywords:
+    - unifi
+    - unifi-poller
+    name: unifi-poller
+    sources:
+    - https://github.com/unifi-poller/unifi-poller
+    - https://hub.docker.com/r/golift/unifi-poller
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/unifi-poller-1.0.2/unifi-poller-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 2.0.1
     created: "2020-08-18T18:54:54.607940992Z"
     description: Collect ALL UniFi Controller, Site, Device & Client Data - Export
       to InfluxDB or Prometheus
@@ -4494,6 +4554,26 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
+    created: "2020-08-29T21:42:41.172096207Z"
+    deprecated: true
+    description: DEPRECATED - A tool to get statistics from Uptime Robot and log it
+      into InfluxDB
+    digest: 4e9fbb103318aaac0f7412a63140d8ada2757cf6af10a79190b3b02d6dd80917
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/uptimerobot
+    icon: https://i.imgur.com/ARSSILk.png
+    keywords:
+    - uptimerobot
+    - influxdb
+    - grafana
+    name: uptimerobot
+    sources:
+    - https://github.com/trojanc/node-influx-uptimerobot
+    - https://github.com/billimek/billimek-charts
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/uptimerobot-2.0.2/uptimerobot-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v1
+    appVersion: 1.1.0
     created: "2020-02-23T13:57:19.785476277Z"
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: 1c4ddd96a8321986d4974ba543154fc3e70e664faa4e1c84ea0d5e5d6c46e6de
@@ -4535,6 +4615,26 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/uptimerobot-2.0.0/uptimerobot-2.0.0.tgz
     version: 2.0.0
   uptimerobot-prometheus:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-08-29T21:42:41.241913335Z"
+    deprecated: true
+    description: DEPRECATED - Prometheus Exporter for the official uptimerobot CLI
+    digest: 2e10b615ee588e6294d8ddf0109f3b5facd90dcf2016eedbb84fb009b802233f
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/uptimerobot-prometheus
+    icon: https://cdn.foliovision.com/images/2019/03/icon-uptimerobot-1024.png
+    keywords:
+    - uptimerobot
+    - prometheus
+    - grafana
+    name: uptimerobot-prometheus
+    sources:
+    - https://github.com/lekpamartin/uptimerobot_exporter
+    - https://github.com/billimek/billimek-charts/tree/master/charts/uptimerobot-prometheus
+    type: application
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/uptimerobot-prometheus-1.0.1/uptimerobot-prometheus-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2020-06-11T01:24:05.090700581Z"
