@@ -1,8 +1,12 @@
-# Collection of helm charts
+# DEPRECATED - Collection of helm charts
 
-## Installation
+**This chart has been deprecated and moved to its new home:**
+
+- **Source repo:** https://github.com/k8s-at-home/charts
+- **Charts repo:** https://k8s-at-home.com/charts/
 
 ```console
-helm repo add billimek https://billimek.com/billimek-charts/
-helm search billimek
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm repo update
+helm search repo k8s-at-home
 ```
