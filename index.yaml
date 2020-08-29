@@ -3,6 +3,24 @@ entries:
   adguard-home:
   - apiVersion: v1
     appVersion: v0.102.0
+    created: "2020-08-29T16:36:29.36114779Z"
+    deprecated: true
+    description: DEPRECATED - DNS proxy as ad-blocker for local network
+    digest: cca189369b4a3f8a556c0c418a29d2bd4fdd41a58727f4af29f6606a2de1e1cf
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/adguard-home
+    icon: https://avatars3.githubusercontent.com/u/8361145?s=200&v=4?sanitize=true
+    keywords:
+    - adguard-home
+    - adguard
+    - dns
+    name: adguard-home
+    sources:
+    - https://github.com/AdguardTeam/AdGuardHome
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/adguard-home-1.2.1/adguard-home-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: v0.102.0
     created: "2020-08-04T03:59:52.863857743Z"
     description: DNS proxy as ad-blocker for local network
     digest: 8ec295719901ada549eff20bc07b66b7fb21d78f40a4db7dd6f0ba0a9b38bf9d
