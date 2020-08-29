@@ -1324,6 +1324,40 @@ entries:
   home-assistant:
   - apiVersion: v2
     appVersion: 0.114.0
+    created: "2020-08-29T21:14:24.555789801Z"
+    dependencies:
+    - condition: esphome.enabled
+      name: esphome
+      repository: https://billimek.com/billimek-charts
+      version: ~1.0.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.7.1
+    deprecated: true
+    description: DEPRECATED - Home Assistant
+    digest: 5b87122955278f2a3537dd6282fbb2f13fed7c43b81728218d60bd34f188f25b
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/danielperna84/hass-configurator
+    - https://github.com/cdr/code-server
+    - https://github.com/billimek/billimek-charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/home-assistant-1.2.1/home-assistant-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
+    appVersion: 0.114.0
     created: "2020-08-13T15:34:26.951458299Z"
     dependencies:
     - condition: esphome.enabled
