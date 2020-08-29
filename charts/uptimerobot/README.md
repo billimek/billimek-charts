@@ -1,4 +1,15 @@
-# A tool to get statistics from Uptime Robot and log it into InfluxDB
+# DEPRECATED - A tool to get statistics from Uptime Robot and log it into InfluxDB
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/uptimerobot
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/uptimerobot
+```
+
+---
 
 ![Screenshot](https://raw.githubusercontent.com/billimek/node-influx-uptimerobot/master/docs/dashboard.png)
 

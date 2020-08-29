@@ -1,8 +1,8 @@
 apiVersion: v2
 name: uptimerobot-prometheus
-description: Prometheus Exporter for the official uptimerobot CLI
+description: DEPRECATED - Prometheus Exporter for the official uptimerobot CLI
 type: application
-version: 1.0.0
+version: 1.0.1
 appVersion: 0.0.1
 keywords:
 - uptimerobot
@@ -13,6 +13,4 @@ icon: https://cdn.foliovision.com/images/2019/03/icon-uptimerobot-1024.png
 sources:
 - https://github.com/lekpamartin/uptimerobot_exporter
 - https://github.com/billimek/billimek-charts/tree/master/charts/uptimerobot-prometheus
-maintainers:
-- name: billimek
-  email: jeff@billimek.com
+deprecated: true

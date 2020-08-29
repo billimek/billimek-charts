@@ -1,4 +1,15 @@
-# A self-hosted data logger for your Tesla 🚘
+# DEPRECATED - A self-hosted data logger for your Tesla 🚘
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/teslamate
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/teslamate
+```
+
+---
 
 This is an opinionated helm chart for [Teslamate](https://github.com/adriankumpf/teslamate) installed with a standalone postgresql database.
 

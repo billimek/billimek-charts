@@ -1,4 +1,15 @@
-# unifi-poller
+# DEPRECATED - unifi-poller
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/unifi-poller
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/unifi-poller
+```
+
+---
 
 This is an opinionated helm chart for [unifi-poller](https://github.com/unifi-poller/unifi-poller)
 
