@@ -79,6 +79,29 @@ entries:
   bazarr:
   - apiVersion: v1
     appVersion: v0.8.4.2-ls72
+    created: "2020-08-29T19:04:26.30290113Z"
+    deprecated: true
+    description: DEPRECATED - Bazarr is a companion application to Sonarr and Radarr.
+      It manages and downloads subtitles based on your requirements
+    digest: 63e8d1a5ec3b7d72392b2395c6e6bb394e5a370a6dbac2a384e40b5990e82644
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/bazarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - sonarr
+    - subtitles
+    - usenet
+    - bittorrent
+    name: bazarr
+    sources:
+    - https://hub.docker.com/r/linuxserver/bazarr/
+    - https://github.com/morpheus65535/bazarr
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/bazarr-2.0.3/bazarr-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v1
+    appVersion: v0.8.4.2-ls72
     created: "2020-08-05T17:32:22.111764595Z"
     description: Bazarr is a companion application to Sonarr and Radarr. It manages
       and downloads subtitles based on your requirements
