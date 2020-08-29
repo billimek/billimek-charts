@@ -1,29 +1,12 @@
-# Collection of helm charts
+# DEPRECATED - Collection of helm charts
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![](https://github.com/billimek/billimek-charts/workflows/Release%20Charts/badge.svg?branch=master)](https://github.com/billimek/billimek-charts/actions)
+**This chart has been deprecated and moved to its new home:**
 
-## Usage
-
-[Helm](https://helm.sh) must be installed to use the charts.
-Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
-
-Once Helm is set up properly, add the repo as follows:
+- **Source repo:** https://github.com/k8s-at-home/charts
+- **Charts repo:** https://k8s-at-home.com/charts/
 
 ```console
-helm repo add billimek https://billimek.com/billimek-charts/
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm repo update
+helm search repo k8s-at-home
 ```
-
-You can then run `helm search billimek` to see the charts.
-
-## Charts
-
-See [helm hub](https://hub.helm.sh/charts/billimek) for a complete list.
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-## License
-
-[Apache 2.0 License](./LICENSE)
