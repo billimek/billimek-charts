@@ -1,4 +1,15 @@
-# Heimdall Application Dashboard
+# DEPRECATED - Heimdall Application Dashboard
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/heimdall
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/heimdall
+```
+
+---
 
 This is a helm chart for [heimdall](https://github.com/heimdall/heimdall) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/heimdall/)
 
