@@ -1,4 +1,15 @@
-# Jellyfin Media Player
+# DEPRECATED - Jellyfin Media Player
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/jellyfin
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/jellyfin
+```
+
+---
 
 This is a helm chart for [Jellyfin](https://github.com/jellyfin/jellyfin) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/jellyfin/)
 

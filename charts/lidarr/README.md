@@ -1,4 +1,15 @@
-# lidarr music download client
+# DEPRECATED - lidarr music download client
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/lidarr
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/lidarr
+```
+
+---
 
 This is a helm chart for [lidarr](https://github.com/lidarr/Lidarr) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/lidarr/)
 

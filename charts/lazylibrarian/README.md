@@ -1,4 +1,15 @@
-# LazyLibrarian helm chart
+# DEPRECATED - LazyLibrarian helm chart
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/lazylibrarian
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/lazylibrarian
+```
+
+---
 
 This is a helm chart for [LazyLibrarian](https://gitlab.com/LazyLibrarian/LazyLibrarian.git) based on the [container image provided by LinuxServer.io](https://hub.docker.com/r/linuxserver/lazylibrarian/).
 

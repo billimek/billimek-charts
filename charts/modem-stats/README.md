@@ -1,4 +1,15 @@
-# cable modem (sb6183) signal and stats collection agent for influxdb
+# DEPRECATED - cable modem (sb6183) signal and stats collection agent for influxdb
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/modem-stats
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/modem-stats
+```
+
+---
 
 ![Screenshot](https://camo.githubusercontent.com/939e044c0491abf790d91bd1d7f909b187e4098c/68747470733a2f2f692e696d6775722e636f6d2f70705a6a6e6b502e706e67)
 

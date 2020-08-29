@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: 0.7.1.1381-ls7
-description: Looks and smells like Sonarr but made for music.
+description: DEPRECATED - Looks and smells like Sonarr but made for music.
 name: lidarr
-version: 2.0.2
+version: 2.0.3
 keywords:
   - lidarr
   - usenet
@@ -12,6 +12,4 @@ icon: https://lidarr.audio/img/logo.png
 sources:
   - https://hub.docker.com/r/linuxserver/lidarr/
   - https://github.com/lidarr/Lidarr/
-maintainers:
-  - name: billimek
-    email: jeff@billimek.com
+deprecated: true

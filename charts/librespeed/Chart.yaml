@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: 1.0.6-12
-description: Librespeed is a HTML5 webpage to test upload and download speeds
+description: DEPRECATED - Librespeed is a HTML5 webpage to test upload and download speeds
 name: librespeed
-version: 1.0.0
+version: 1.0.1
 keywords:
   - librespeed
 home: https://github.com/billimek/billimek-charts/tree/master/charts/librespeed
@@ -11,6 +11,4 @@ sources:
   - https://github.com/librespeed/speedtest
   - https://hub.docker.com/r/linuxserver/librespeed
   - https://github.com/billimek/billimek-charts/tree/master/charts/librespeed
-maintainers:
-  - name: billimek
-    email: jeff@billimek.com
+deprecated: true
