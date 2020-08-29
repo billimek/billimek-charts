@@ -1827,6 +1827,24 @@ entries:
   jellyfin:
   - apiVersion: v1
     appVersion: v10.5.3-ls45
+    created: "2020-08-29T21:26:38.650850477Z"
+    deprecated: true
+    description: DEPRECATED - Jellyfin is a Free Software Media System
+    digest: 5af601c5a16a14355864e91a8637841ad57e33a42993230d481e8b8ca411f125
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/Jellyfin
+    icon: https://github.com/jellyfin/jellyfin-ux/blob/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - Jellyfin
+    - mediaplayer
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/linuxserver/Jellyfin/
+    - https://github.com/Jellyfin/Jellyfin
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/jellyfin-1.0.4/jellyfin-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: v10.5.3-ls45
     created: "2020-08-05T17:32:22.618420047Z"
     description: Jellyfin is a Free Software Media System
     digest: 5f157bc585a33843be3fd6e0b304140a70e0e230a1f1f2a2458f54023bb786b4
@@ -1908,6 +1926,24 @@ entries:
   lazylibrarian:
   - apiVersion: v2
     appVersion: 581cdfb3-ls23
+    created: "2020-08-29T21:26:38.717852715Z"
+    deprecated: true
+    description: DEPRECATED - A Helm chart for deploying LazyLibrarian
+    digest: 59a6cdb551075d33a2813e0dabcff6c107355a952423807d0abe11028bf93bc9
+    home: https://github.com/billimek/charts/lazylibrarian
+    icon: https://lazylibrarian.gitlab.io/logo.svg
+    keywords:
+    - lazylibrarian
+    - ebooks
+    name: lazylibrarian
+    sources:
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/lazylibrarian-1.0.1/lazylibrarian-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 581cdfb3-ls23
     created: "2020-08-16T12:08:52.207657813Z"
     description: A Helm chart for deploying LazyLibrarian
     digest: b84db3ab825ac1239d5f189093afb70a920fed1600525148be4e039a2b612901
@@ -1929,6 +1965,25 @@ entries:
   librespeed:
   - apiVersion: v1
     appVersion: 1.0.6-12
+    created: "2020-08-29T21:26:38.786034059Z"
+    deprecated: true
+    description: DEPRECATED - Librespeed is a HTML5 webpage to test upload and download
+      speeds
+    digest: cf190141c386aa0777d5eea81ad3aa5191cf5915c0e0928bb33be61932a1413b
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/librespeed
+    icon: https://github.com/librespeed/speedtest/blob/master/.logo/logo3.png?raw=true
+    keywords:
+    - librespeed
+    name: librespeed
+    sources:
+    - https://github.com/librespeed/speedtest
+    - https://hub.docker.com/r/linuxserver/librespeed
+    - https://github.com/billimek/billimek-charts/tree/master/charts/librespeed
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/librespeed-1.0.1/librespeed-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 1.0.6-12
     created: "2020-08-20T12:08:03.263919376Z"
     description: Librespeed is a HTML5 webpage to test upload and download speeds
     digest: a8d8c0546758797bf570001c233bf194e6241bd31c7d4f64d2998d2543569f62
@@ -1948,6 +2003,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/librespeed-1.0.0/librespeed-1.0.0.tgz
     version: 1.0.0
   lidarr:
+  - apiVersion: v1
+    appVersion: 0.7.1.1381-ls7
+    created: "2020-08-29T21:26:38.854548904Z"
+    deprecated: true
+    description: DEPRECATED - Looks and smells like Sonarr but made for music.
+    digest: 3e574f996271f43e790b24f1d8401019555638ecba828245e55eb3c777f305d8
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/lidarr
+    icon: https://lidarr.audio/img/logo.png
+    keywords:
+    - lidarr
+    - usenet
+    - bittorrent
+    name: lidarr
+    sources:
+    - https://hub.docker.com/r/linuxserver/lidarr/
+    - https://github.com/lidarr/Lidarr/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/lidarr-2.0.3/lidarr-2.0.3.tgz
+    version: 2.0.3
   - apiVersion: v1
     appVersion: 0.7.1.1381-ls7
     created: "2020-08-05T17:32:22.691350755Z"
@@ -2054,6 +2128,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/lidarr-1.0.0/lidarr-1.0.0.tgz
     version: 1.0.0
   modem-stats:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-08-29T21:26:38.923611653Z"
+    deprecated: true
+    description: DEPRECATED - periodic cable modem data collection and save the results
+      to InfluxDB
+    digest: 9e3b3bbeee57e4ab5273e4935eee20605ee6b74c9e7d3f90b7eb8b36dd9b4ba9
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/modem-stats
+    icon: https://i.imgur.com/NprLyFf.png
+    keywords:
+    - sb6183
+    - influxdb
+    name: modem-stats
+    sources:
+    - https://github.com/billimek/SB6183-stats-for-influxdb
+    - https://github.com/billimek/billimek-charts
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/modem-stats-2.0.2/modem-stats-2.0.2.tgz
+    version: 2.0.2
   - apiVersion: v1
     appVersion: 1.0.0
     created: "2020-01-10T21:10:35.486377415Z"
