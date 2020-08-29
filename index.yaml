@@ -4560,6 +4560,26 @@ entries:
   xteve:
   - apiVersion: v1
     appVersion: 2.1.2
+    created: "2020-08-29T21:42:08.744870981Z"
+    deprecated: true
+    description: DEPRECATED - M3U Proxy for Plex DVR and Emby Live TV.
+    digest: 1992a6dc74e137a9db47fc424621cb02f56aa854229683a5a71f38bca0f6827e
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/xteve
+    icon: https://raw.githubusercontent.com/xteve-project/xTeVe/master/html/img/logo_b_880x200.jpg
+    keywords:
+    - xteve
+    - iptv
+    - plex
+    - emby
+    name: xteve
+    sources:
+    - https://xteve.de
+    - https://github.com/xteve-project/xTeVe
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/xteve-1.0.1/xteve-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 2.1.2
     created: "2020-07-25T17:37:02.001958765Z"
     description: M3U Proxy for Plex DVR and Emby Live TV.
     digest: d5085d2131d14473e2d2dc5f0561f8109283c8ea0379816de0dae464ef516e81
@@ -4581,6 +4601,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/xteve-1.0.0/xteve-1.0.0.tgz
     version: 1.0.0
   zigbee2mqtt:
+  - apiVersion: v2
+    appVersion: 1.14.1
+    created: "2020-08-29T21:42:08.809864874Z"
+    deprecated: true
+    description: DEPRECATED - Bridges events and allows you to control your Zigbee
+      devices via MQTT
+    digest: ae68f4a3e8f049104af5e0034b13bbe432f259734b56a5ac2f5b5c909a71c2c5
+    home: https://www.zigbee2mqtt.io
+    icon: https://www.zigbee2mqtt.io/images/logo.png
+    keywords:
+    - zigbee
+    - mqtt
+    name: zigbee2mqtt
+    sources:
+    - https://github.com/Koenkk/zigbee2mqtt
+    type: application
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/zigbee2mqtt-0.2.1/zigbee2mqtt-0.2.1.tgz
+    version: 0.2.1
   - apiVersion: v2
     appVersion: 1.14.1
     created: "2020-08-09T12:06:51.463143981Z"
@@ -4626,6 +4665,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
   zwave2mqtt:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2020-08-29T21:42:08.889787936Z"
+    deprecated: true
+    description: DEPRECATED - Fully configurable Zwave to MQTT gateway and Control
+      Panel using NodeJS and Vue
+    digest: 868963bfb51f976c6fba53bcc2335ee77fbe2267b1e78a9a06e900a532e69b6d
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/zwave2mqtt
+    icon: https://github.com/OpenZWave/Zwave2Mqtt/raw/master/docs/OZW_Logo.png
+    keywords:
+    - zwave
+    - mqtt
+    - home-assistant
+    name: zwave2mqtt
+    sources:
+    - https://github.com/OpenZWave/Zwave2Mqtt
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/zwave2mqtt-2.1.1/zwave2mqtt-2.1.1.tgz
+    version: 2.1.1
   - apiVersion: v1
     appVersion: 3.0.0
     created: "2020-03-19T11:02:19.96726281Z"
