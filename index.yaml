@@ -3360,6 +3360,24 @@ entries:
   qbittorrent:
   - apiVersion: v1
     appVersion: 14.2.0.99201912180418-6819-118af03ubuntu18.04.1-ls62
+    created: "2020-08-29T21:51:22.439593867Z"
+    deprecated: true
+    description: DEPRECATED - qBittorrent is a cross-platform free and open-source
+      BitTorrent client
+    digest: 23859dd7af7cf9cafe69d51fbdf0e7b105948c280d4eea5a0ed7b23e95eaaa78
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    name: qbittorrent
+    sources:
+    - https://hub.docker.com/r/linuxserver/qbittorrent/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/qbittorrent-3.2.3/qbittorrent-3.2.3.tgz
+    version: 3.2.3
+  - apiVersion: v1
+    appVersion: 14.2.0.99201912180418-6819-118af03ubuntu18.04.1-ls62
     created: "2020-08-05T17:32:23.065514593Z"
     description: qBittorrent is a cross-platform free and open-source BitTorrent client
     digest: f71783d9970336d02c1eb1728d2b69c64f093673f8e7d74499ebcbce638f281d
@@ -3492,6 +3510,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/qbittorrent-2.0.1/qbittorrent-2.0.1.tgz
     version: 2.0.1
   radarr:
+  - apiVersion: v1
+    appVersion: v0.2.0.1480-ls58
+    created: "2020-08-29T21:51:22.513844239Z"
+    deprecated: true
+    description: DEPRECATED - Radarr is a movie downloading client
+    digest: 19d5a7a18e37999aa94450a5c91070653e3ca6c5abd0f64942f1eef815239b9e
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/radarr
+    icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
+    keywords:
+    - radarr
+    - usenet
+    - bittorrent
+    name: radarr
+    sources:
+    - https://hub.docker.com/r/linuxserver/radarr/
+    - https://github.com/Radarr/Radarr/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/radarr-4.1.4/radarr-4.1.4.tgz
+    version: 4.1.4
   - apiVersion: v1
     appVersion: v0.2.0.1480-ls58
     created: "2020-08-05T17:32:23.148622301Z"
@@ -3705,6 +3742,26 @@ entries:
   rtorrent-flood:
   - apiVersion: v1
     appVersion: 1.0.0
+    created: "2020-08-29T21:51:22.586445506Z"
+    deprecated: true
+    description: DEPRECATED - rtorrent and flood co-located in the same deployment
+    digest: 760511318ab22955a731db95a7893e7fc0cbc0c7466c51d880b6953ec69c73db
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/rtorrent-flood
+    icon: https://github.com/jfurrow/flood/blob/master/flood.png?raw=true
+    keywords:
+    - rtorrent
+    - flood
+    - torrrent
+    name: rtorrent-flood
+    sources:
+    - https://hub.docker.com/r/looselyrigorous/rtorrent
+    - https://github.com/looselyrigorous/docker-rtorrent
+    - https://github.com/Flood-UI/flood
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/rtorrent-flood-4.1.2/rtorrent-flood-4.1.2.tgz
+    version: 4.1.2
+  - apiVersion: v1
+    appVersion: 1.0.0
     created: "2020-04-19T13:01:02.268687911Z"
     description: rtorrent and flood co-located in the same deployment
     digest: 3b2d2eebdcc1ccd1981b3b1a73569d0ee51f2b3152afc8375852276e131278d6
@@ -3794,6 +3851,24 @@ entries:
   sabnzbd:
   - apiVersion: v1
     appVersion: 2.3.9
+    created: "2020-08-29T21:51:22.661809483Z"
+    deprecated: true
+    description: DEPRECATED - Free and easy binary newsreader
+    digest: 3dff068487671c0ee53efebb72ea72b865279c86103a655282d4dfd11b2296de
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/sabnzbd
+    icon: https://avatars1.githubusercontent.com/u/960698?s=400&v=4
+    keywords:
+    - sabnzbd
+    - usenet
+    name: sabnzbd
+    sources:
+    - https://hub.docker.com/r/linuxserver/sabnzbd/
+    - https://sabnzbd.org/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/sabnzbd-1.0.3/sabnzbd-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: 2.3.9
     created: "2020-08-05T17:32:23.215735608Z"
     description: Free and easy binary newsreader
     digest: 2a358ed16ea8dbee121ae4afcad314795c8b6269659a461f218c72566c36b3ec
@@ -3853,6 +3928,23 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/sabnzbd-1.0.0/sabnzbd-1.0.0.tgz
     version: 1.0.0
   ser2sock:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-08-29T21:51:22.773497193Z"
+    deprecated: true
+    description: DEPRECATED - Serial to Socket Redirector
+    digest: 2eafcc04c2e710e76a7f933cd9e3c879b0d05c5ee23ed32527978d37ad9d6458
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/ser2sock
+    icon: https://i.imgur.com/GfZ7McO.png
+    keywords:
+    - ser2sock
+    name: ser2sock
+    sources:
+    - https://github.com/nutechsoftware/ser2sock
+    - https://github.com/tenstartups/ser2sock
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/ser2sock-1.1.1/ser2sock-1.1.1.tgz
+    version: 1.1.1
   - apiVersion: v1
     appVersion: 1.0.0
     created: "2020-07-12T19:40:10.308382181Z"
@@ -3930,6 +4022,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/ser2sock-1.0.0/ser2sock-1.0.0.tgz
     version: 1.0.0
   sonarr:
+  - apiVersion: v1
+    appVersion: 2.0.0.5344-ls60
+    created: "2020-08-29T21:51:22.843365349Z"
+    deprecated: true
+    description: DEPRECATED - Sonarr is a television show downloading client
+    digest: 4c603bc047cd0b1489ab36a01afb30ac4a0f86136f29990bb8145408f3f2a9df
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/sonarr
+    icon: https://avatars1.githubusercontent.com/u/1082903?s=400&v=4
+    keywords:
+    - sonarr
+    - usenet
+    - bittorrent
+    name: sonarr
+    sources:
+    - https://hub.docker.com/r/linuxserver/sonarr/
+    - https://sonarr.tv/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/sonarr-4.1.4/sonarr-4.1.4.tgz
+    version: 4.1.4
   - apiVersion: v1
     appVersion: 2.0.0.5344-ls60
     created: "2020-08-05T17:32:23.293450915Z"
@@ -4143,6 +4254,25 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
+    created: "2020-08-29T21:51:22.937986396Z"
+    deprecated: true
+    description: DEPRECATED - periodic speedtest and save the results to InfluxDB
+    digest: fbecde466763c0ccf16987aef4b57ad0e597b9ce526231072ca45d57177f3a5b
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/speedtest
+    icon: https://i.imgur.com/nDYjKk8.png
+    keywords:
+    - speedtest
+    - influxdb
+    - grafana
+    name: speedtest
+    sources:
+    - https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
+    - https://github.com/billimek/billimek-charts
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/speedtest-2.0.2/speedtest-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v1
+    appVersion: 1.0.0
     created: "2020-01-10T21:41:12.391170785Z"
     description: periodic speedtest and save the results to InfluxDB
     digest: 9025e5cae21fcef7b532606e272ad4f4c31422dd4a76c2a4736489cce1462f9d
@@ -4163,6 +4293,25 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/speedtest-2.0.0/speedtest-2.0.0.tgz
     version: 2.0.0
   speedtest-prometheus:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2020-08-29T21:51:23.018117687Z"
+    deprecated: true
+    description: DEPRECATED - Prometheus Exporter for the official Speedtest CLI
+    digest: ddd82d0a87683a0ed9853ca4d4e7f7c6f3c4479b6331ffa60b2bc10dd2957ead
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/speedtest-prometheus
+    icon: https://cdn.speedcheck.org/images/reviews/ookla-logo.png
+    keywords:
+    - speedtest
+    - influxdb
+    - grafana
+    name: speedtest-prometheus
+    sources:
+    - https://github.com/billimek/prometheus-speedtest-exporter
+    type: application
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/speedtest-prometheus-1.0.2/speedtest-prometheus-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v2
     appVersion: 1.1.0
     created: "2020-04-30T10:18:16.900108405Z"
