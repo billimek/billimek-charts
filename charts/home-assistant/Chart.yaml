@@ -1,8 +1,8 @@
 apiVersion: v2
 appVersion: 0.114.0
-description: Home Assistant
+description: DEPRECATED - Home Assistant
 name: home-assistant
-version: 1.2.0
+version: 1.2.1
 keywords:
 - home-assistant
 - hass
@@ -14,11 +14,7 @@ sources:
 - https://github.com/danielperna84/hass-configurator
 - https://github.com/cdr/code-server
 - https://github.com/billimek/billimek-charts/tree/master/charts/home-assistant
-maintainers:
-- name: billimek
-  email: jeff@billimek.com
-- name: runningman84
-  email: phil@hellmi.de
+deprecated: true
 dependencies:
 - name: esphome
   repository: https://billimek.com/billimek-charts
