@@ -1,4 +1,15 @@
-# Dynamic DNS using DigitalOcean's DNS Services
+# DEPRECATED - Dynamic DNS using DigitalOcean's DNS Services
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/digitalocean-dyndns
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/digitalocean-dyndns
+```
+
+---
 
 A script that pushes the public IP address of the running machine to DigitalOcean's DNS API's. It requires an existing A record to update. The resulting container image is roughly around 7 MB (thanks to Alpine Linux).
 
