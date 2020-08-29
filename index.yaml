@@ -2170,6 +2170,26 @@ entries:
   node-feature-discovery:
   - apiVersion: v1
     appVersion: 0.6.0
+    created: "2020-08-29T21:32:15.806456277Z"
+    deprecated: true
+    description: DEPRECATED - Detect hardware features available on each node in a
+      Kubernetes cluster, and advertises those features using node labels
+    digest: 2129742250edee180efea0d53963e86707a4966b85b28963aa9e7e173a81ebe0
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/node-feature-discovery
+    icon: https://avatars1.githubusercontent.com/u/36015203?s=400&v=4
+    keywords:
+    - kubernetes
+    - cluster
+    - hardware
+    name: node-feature-discovery
+    sources:
+    - https://github.com/kubernetes-sigs/node-feature-discovery
+    - https://github.com/billimek/billimek-charts
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/node-feature-discovery-1.0.1/node-feature-discovery-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 0.6.0
     created: "2020-08-12T11:59:57.826402042Z"
     description: Detect hardware features available on each node in a Kubernetes cluster,
       and advertises those features using node labels
@@ -2191,6 +2211,24 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/node-feature-discovery-1.0.0/node-feature-discovery-1.0.0.tgz
     version: 1.0.0
   node-red:
+  - apiVersion: v1
+    appVersion: 1.0.6-12
+    created: "2020-08-29T21:32:15.87952611Z"
+    deprecated: true
+    description: DEPRECATED - Node-RED is low-code programming for event-driven applications
+    digest: 4afc92fa49e822d04e04f16382e9ccf06670de17e3434d94879295c2f326d945
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+    keywords:
+    - nodered
+    - node-red
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red-docker
+    - https://github.com/billimek/billimek-charts/tree/master/charts/node-red
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/node-red-2.0.3/node-red-2.0.3.tgz
+    version: 2.0.3
   - apiVersion: v1
     appVersion: 1.0.6-12
     created: "2020-07-31T13:27:40.472017995Z"
@@ -2258,6 +2296,24 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/node-red-2.0.0/node-red-2.0.0.tgz
     version: 2.0.0
   nzbget:
+  - apiVersion: v1
+    appVersion: v21.0-ls14
+    created: "2020-08-29T21:32:15.944284728Z"
+    deprecated: true
+    description: DEPRECATED - NZBGet is a Usenet downloader client
+    digest: 173aba7ea4829225e7d8a9ccc03ede7fb9eed373c295ef79da4890063bf55ad0
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/nzbget
+    icon: https://avatars1.githubusercontent.com/u/3368377?s=400&v=4
+    keywords:
+    - nzbget
+    - usenet
+    name: nzbget
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbget/
+    - https://nzbget.net/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/nzbget-3.3.3/nzbget-3.3.3.tgz
+    version: 3.3.3
   - apiVersion: v1
     appVersion: v21.0-ls14
     created: "2020-08-05T17:32:22.820167668Z"
@@ -2461,6 +2517,24 @@ entries:
   nzbhydra2:
   - apiVersion: v1
     appVersion: v2.22.2-ls9
+    created: "2020-08-29T21:32:16.020684067Z"
+    deprecated: true
+    description: DEPRECATED - Usenet meta search
+    digest: d12b20193113ae5eebe25e83272001f8711a2c16ddc02e69b27426cc523c46a0
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/nzbhydra2
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
+    keywords:
+    - nzbhydra2
+    - usenet
+    name: nzbhydra2
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbhydra2/
+    - https://github.com/theotherp/nzbhydra2
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/nzbhydra2-2.3.3/nzbhydra2-2.3.3.tgz
+    version: 2.3.3
+  - apiVersion: v1
+    appVersion: v2.22.2-ls9
     created: "2020-08-05T17:32:22.904876277Z"
     description: Usenet meta search
     digest: fa755d2bb00dc1f407ebff751847a18e7db8fc0eb931b23d3ddac486d1aefbd6
@@ -2620,6 +2694,24 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/nzbhydra2-2.0.1/nzbhydra2-2.0.1.tgz
     version: 2.0.1
   ombi:
+  - apiVersion: v1
+    appVersion: v3.0.4892-ls61
+    created: "2020-08-29T21:32:16.121871147Z"
+    deprecated: true
+    description: DEPRECATED - Want a Movie or TV Show on Plex or Emby? Use Ombi!
+    digest: d28a74adc66200430060a05fcf5a1d2d5592c7f6ccc7f4130e48df183170c897
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/ombi
+    icon: https://ombi.io/img/logo-orange-small.png
+    keywords:
+    - ombi
+    - plex
+    name: ombi
+    sources:
+    - https://hub.docker.com/r/linuxserver/ombi/
+    - https://ombi.io/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/ombi-2.2.4/ombi-2.2.4.tgz
+    version: 2.2.4
   - apiVersion: v1
     appVersion: v3.0.4892-ls61
     created: "2020-08-05T17:32:22.985402785Z"
@@ -2783,6 +2875,24 @@ entries:
   piaware:
   - apiVersion: v1
     appVersion: 3.8.1
+    created: "2020-08-29T21:32:16.18568596Z"
+    deprecated: true
+    description: DEPRECATED - Program for forwarding ADS-B data to FlightAware
+    digest: 6cbdda0062ee0eddbd667e79bf6f0144c00869fcc33e2a16aefdcd3c57e44a1a
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/piaware
+    icon: https://pbs.twimg.com/profile_images/964269455483088897/mr2UgvfG_400x400.jpg
+    keywords:
+    - piaware
+    - flight-aware
+    - flight-tracker
+    name: piaware
+    sources:
+    - https://github.com/flightaware/piaware
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/piaware-1.0.1/piaware-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 3.8.1
     created: "2020-07-08T23:42:18.93888381Z"
     description: Program for forwarding ADS-B data to FlightAware
     digest: 3da599f8a9244a73bf9983e86441c3d10ee5b969af74d4955e7c8ab09e869108
@@ -2802,6 +2912,23 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/piaware-1.0.0/piaware-1.0.0.tgz
     version: 1.0.0
   plex:
+  - apiVersion: v1
+    appVersion: 1.19.5.3112-b23ab3896
+    created: "2020-08-29T21:32:16.268250006Z"
+    deprecated: true
+    description: DEPRECATED - Plex Media Server
+    digest: 4777ab1acd6831eb5ce4e28acefaa499a7a814397609a89c9d9ddc7ac56244b5
+    home: https://plex.tv/
+    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
+    keywords:
+    - plex
+    name: plex
+    sources:
+    - https://github.com/billimek/billimek-charts/tree/master/charts/plex
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/plex-1.8.4/plex-1.8.4.tgz
+    version: 1.8.4
   - apiVersion: v1
     appVersion: 1.19.5.3112-b23ab3896
     created: "2020-08-28T19:30:27.112550425Z"
@@ -3145,6 +3272,33 @@ entries:
     - https://github.com/billimek/billimek-charts/releases/download/plex-1.0.0/plex-1.0.0.tgz
     version: 1.0.0
   powerdns:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-08-29T21:32:16.34962755Z"
+    dependencies:
+    - condition: postgres.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.7.1
+    deprecated: true
+    description: DEPRECATED - PowerDNS is a DNS server, written in C++ and licensed
+      under the GPL. It runs on most Unix derivatives. PowerDNS features a large number
+      of different backends ranging from simple BIND style zonefiles to relational
+      databases and load balancing/failover algorithms. A DNS recursor is provided
+      as a separate program.
+    digest: 60b45659e842f78accffcdf79217e51db9d13dc87828b7dd66daafc33d56f5cc
+    home: https://www.powerdns.com/
+    icon: https://www.powerdns.com/img/pDNS_logo_positive_claim_down_screen_xsmall.png
+    name: powerdns
+    sources:
+    - http://www.github.com/PowerDNS/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/powerdns-1.0.2/powerdns-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v2
     appVersion: latest
     created: "2020-08-07T20:25:45.917460266Z"
