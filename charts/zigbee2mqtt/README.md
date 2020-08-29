@@ -1,4 +1,15 @@
-# zigbee2mqtt: Fully configurable Zigbee to MQTT Gateway
+# DEPRECATED - zigbee2mqtt: Fully configurable Zigbee to MQTT Gateway
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/zigbee2mqtt
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/zigbee2mqtt
+```
+
+---
 
 This is a helm chart for [zigbee2mqtt](https://www.zigbee2mqtt.io)
 

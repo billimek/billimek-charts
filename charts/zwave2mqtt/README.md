@@ -1,4 +1,15 @@
-# zwave2mqtt: Fully configurable Zwave to MQTT Gateway and Control Panel
+# DEPRECATED - zwave2mqtt: Fully configurable Zwave to MQTT Gateway and Control Panel
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/zwave2mqtt
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/zwave2mqtt
+```
+
+---
 
 This is a helm chart for [zwave2mqtt](https://github.com/OpenZWave/Zwave2Mqtt)
 

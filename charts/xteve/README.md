@@ -1,4 +1,15 @@
-# xteve: M3U Proxy for Plex DVR and Emby Live TV.
+# DEPRECATED - xteve: M3U Proxy for Plex DVR and Emby Live TV.
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/xteve
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/xteve
+```
+
+---
 
 This is a helm chart for [xTeVe](https://github.com/xteve-project/xTeVe)
 

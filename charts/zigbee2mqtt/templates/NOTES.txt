@@ -1,3 +1,5 @@
+This Helm chart is deprecated
+
 {{- if not .Values.persistence.enabled }}
 WARNING: You have disabled persistence. Your pairings and settings will be lost on container restart!
 {{- else }}
