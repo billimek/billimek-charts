@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: "0.5.2"
-description: Realtime object detection on RTSP cameras with the Google Coral
+description: DEPRECATED - Realtime object detection on RTSP cameras with the Google Coral
 name: frigate
-version: 3.2.0
+version: 3.2.1
 keywords:
   - tensorflow
   - coral
@@ -11,8 +11,4 @@ home: https://github.com/billimek/billimek-charts/tree/master/charts/frigate
 icon: https://upload.wikimedia.org/wikipedia/commons/a/a4/Lutine1.jpg
 sources:
   - https://github.com/blakeblackshear/frigate
-maintainers:
-  - name: billimek
-    email: jeff@billimek.com
-  - name: blakeblackshear
-    email: blakeb@blakeshome.com
+deprecated: true

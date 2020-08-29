@@ -1,4 +1,15 @@
-# frigate: Realtime object detection on RTSP cameras with the Google Coral
+# DEPRECATED - frigate: Realtime object detection on RTSP cameras with the Google Coral
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/frigate
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/frigate
+```
+
+---
 
 This is a helm chart for [frigate](https://github.com/blakeblackshear/frigate)
 
