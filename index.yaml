@@ -718,6 +718,27 @@ entries:
   couchpotato:
   - apiVersion: v1
     appVersion: 7260c12f-ls33
+    created: "2020-08-29T21:08:40.893790626Z"
+    description: DEPRECATED - couchpotato is a movie downloading client
+    digest: 3950aee882160d0f98229cf967c91f46691eba053c742e94d14dc27254efc0b3
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/couchpotato
+    icon: https://github.com/CouchPotato/CouchPotatoServer/raw/master/couchpotato/static/images/icons/android.png
+    keywords:
+    - couchpotato
+    - usenet
+    - bittorrent
+    maintainers:
+    - email: simon.caron@protonmail.com
+      name: skaro13
+    name: couchpotato
+    sources:
+    - https://hub.docker.com/r/linuxserver/couchpotato/
+    - https://github.com/CouchPotato/CouchPotatoServer/
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/couchpotato-1.0.3/couchpotato-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: 7260c12f-ls33
     created: "2020-08-05T17:32:22.215538006Z"
     description: couchpotato is a movie downloading client
     digest: 307912fde829202658e91ce3a23257abc7291341c43822baeb6086dbb1b3379e
