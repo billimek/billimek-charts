@@ -1,4 +1,15 @@
-# Comcast Data Cap Usage Collector For InfluxDB and Grafana
+# DEPRECATED - Comcast Data Cap Usage Collector For InfluxDB and Grafana
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/comcast
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/comcast
+```
+
+---
 
 ![Screenshot](https://github.com/billimek/comcastUsage-for-influxdb/raw/master/images/comcast_grafana_example.png)
 
