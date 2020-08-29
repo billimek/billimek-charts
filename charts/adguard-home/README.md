@@ -1,4 +1,15 @@
-# DNS proxy as ad-blocker for local network
+# DEPRECATED - DNS proxy as ad-blocker for local network
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/adguard-home
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/adguard-home
+```
+
+---
 
 This is an opinionated helm chart for [adguard-home](https://github.com/AdguardTeam/AdGuardHome)
 
