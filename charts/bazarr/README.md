@@ -1,4 +1,15 @@
-# bazarr subtitle download client
+# DEPRECATED - bazarr subtitle download client
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/bazarr
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/bazarr
+helm install k8s-at-home/
+```
+
+---
 
 This is a helm chart for [bazarr](https://github.com/morpheus65535/bazarr) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/bazarr)
 
