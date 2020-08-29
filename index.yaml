@@ -1628,6 +1628,24 @@ entries:
   jackett:
   - apiVersion: v1
     appVersion: v0.13.446-ls55
+    created: "2020-08-29T21:15:57.385069807Z"
+    deprecated: true
+    description: DEPRECATED - API Support for your favorite torrent trackers
+    digest: 888cca35be47ee416b1e31cabed4be5400b67738a416ab0703f0a4b9e27dd20c
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/jackett
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png
+    keywords:
+    - jackett
+    - torrent
+    name: jackett
+    sources:
+    - https://hub.docker.com/r/linuxserver/jackett/
+    - https://github.com/Jackett/Jackett
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/jackett-2.3.3/jackett-2.3.3.tgz
+    version: 2.3.3
+  - apiVersion: v1
+    appVersion: v0.13.446-ls55
     created: "2020-08-05T17:32:22.529455538Z"
     description: API Support for your favorite torrent trackers
     digest: 1cdfb5904d50f68ff281c613dc74d11a46c8009c8ee8338d06ff0b0fc75faea7
