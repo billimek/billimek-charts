@@ -1,4 +1,15 @@
-# Prometheus Exporter using the Speedtest CLI
+# DEPRECATED - Prometheus Exporter using the Speedtest CLI
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/ speedtest-prometheus
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/ speedtest-prometheus
+```
+
+---
 
 ![Screenshot](https://i.imgur.com/iIzWUre.png)
 

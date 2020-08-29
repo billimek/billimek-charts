@@ -1,8 +1,8 @@
 apiVersion: v2
 name: speedtest-prometheus
-description: Prometheus Exporter for the official Speedtest CLI
+description: DEPRECATED - Prometheus Exporter for the official Speedtest CLI
 type: application
-version: 1.0.1
+version: 1.0.2
 appVersion: 1.1.0
 keywords:
 - speedtest
@@ -12,6 +12,4 @@ home: https://github.com/billimek/billimek-charts/tree/master/charts/speedtest-p
 icon: https://cdn.speedcheck.org/images/reviews/ookla-logo.png
 sources:
 - https://github.com/billimek/prometheus-speedtest-exporter
-maintainers:
-- name: billimek
-  email: jeff@billimek.com
+deprecated: true

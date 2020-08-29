@@ -1,4 +1,15 @@
-# Speedtest.net Collector For InfluxDB and Grafana
+# DEPRECATED - Speedtest.net Collector For InfluxDB and Grafana
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/speedtest
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/speedtest
+```
+
+---
 
 ![Screenshot](https://camo.githubusercontent.com/c652a6685bcb5a8cec6a47c92e57d159b28e47e7/68747470733a2f2f7075752e73682f746d664f412f623535373665383864652e706e67)
 

@@ -1,4 +1,15 @@
-# qBittorrent client
+# DEPRECATED - qBittorrent client
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/qbittorrent
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/qbittorrent
+```
+
+---
 
 This is a helm chart for [qbittorrent](https://qbittorrent.org/) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/qbittorrent/)
 

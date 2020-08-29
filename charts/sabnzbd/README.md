@@ -1,4 +1,15 @@
-# SABnzbd Usenet client
+# DEPRECATED - SABnzbd Usenet client
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/sabnzbd
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/sabnzbd
+```
+
+---
 
 This is a helm chart for [SABnzbd](https://sabnzbd.org/) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/sabnzbd/)
 

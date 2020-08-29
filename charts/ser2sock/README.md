@@ -1,4 +1,15 @@
-# ser2sock: Serial to Socket Redirector
+# DEPRECATED - ser2sock: Serial to Socket Redirector
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/ser2sock
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/ser2sock
+```
+
+---
 
 This is a helm chart for [ser2sock](https://github.com/nutechsoftware/ser2sock)
 
