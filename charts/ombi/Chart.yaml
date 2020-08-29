@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: v3.0.4892-ls61
-description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+description: DEPRECATED - Want a Movie or TV Show on Plex or Emby? Use Ombi!
 name: ombi
-version: 2.2.3
+version: 2.2.4
 keywords:
   - ombi
   - plex
@@ -11,6 +11,4 @@ icon: https://ombi.io/img/logo-orange-small.png
 sources:
   - https://hub.docker.com/r/linuxserver/ombi/
   - https://ombi.io/
-maintainers:
-  - name: billimek
-    email: jeff@billimek.com
+deprecated: true

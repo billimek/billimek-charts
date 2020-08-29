@@ -1,4 +1,15 @@
-# NZBGet Usenet client
+# DEPRECATED - NZBGet Usenet client
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/nzbget
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/nzbget
+```
+
+---
 
 This is a helm chart for [NZBGet](https://nzbget.net/) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/nzbget/)
 

@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: v2.22.2-ls9
-description: Usenet meta search
+description: DEPRECATED - Usenet meta search
 name: nzbhydra2
-version: 2.3.2
+version: 2.3.3
 keywords:
   - nzbhydra2
   - usenet
@@ -11,6 +11,4 @@ icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linu
 sources:
   - https://hub.docker.com/r/linuxserver/nzbhydra2/
   - https://github.com/theotherp/nzbhydra2
-maintainers:
-  - name: billimek
-    email: jeff@billimek.com
+deprecated: true

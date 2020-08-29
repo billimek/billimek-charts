@@ -1,4 +1,15 @@
-# Plex Media Server helm chart
+# DEPRECATED - Plex Media Server helm chart
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/plex
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/plex
+```
+
+---
 
 This is an opinionated helm chart for Plex Media Center based on the [official container image](https://hub.docker.com/r/plexinc/pms-docker/).
 

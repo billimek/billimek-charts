@@ -1,4 +1,15 @@
-# node-feature-discovery helm chart
+# DEPRECATED - node-feature-discovery helm chart
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/node-feature-discovery
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/node-feature-discovery
+```
+
+---
 
 This is a helm chart for [node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) using the master/worker pattern.
 

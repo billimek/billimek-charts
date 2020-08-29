@@ -1,4 +1,15 @@
-# Node-RED
+# DEPRECATED - Node-RED
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/node-red
+```
+
+---
 
 Low-code programming for event-driven applications
 

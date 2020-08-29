@@ -1,4 +1,15 @@
-# nzbhydra2
+# DEPRECATED - nzbhydra2
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/nzbhydra2
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/nzbhydra2
+```
+
+---
 
 This is a helm chart for [nzbhydra2](https://github.com/theotherp/nzbhydra2) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/hydra2/)
 
