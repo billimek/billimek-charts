@@ -1,4 +1,15 @@
-# Unofficial Bitwarden compatible server written in Rust
+# DEPRECATED - Unofficial Bitwarden compatible server written in Rust
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/bitwardenrs
+helm install k8s-at-home/bitwardenrs
+```
+
+---
 
 This is an opinionated helm chart for [bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) 
 
