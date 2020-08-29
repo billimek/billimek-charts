@@ -867,6 +867,26 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2020-08-29T21:09:39.317046196Z"
+    description: DEPRECATED - Dynamic DNS using DigitalOcean's DNS Services
+    digest: 10e19becb72ab23acb6f0de79cab12dc7c15e1c5c02482d1387d013277a080e9
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/digitalocean-dyndns
+    icon: https://i.imgur.com/cS6iqXD.png
+    keywords:
+    - digitalocean
+    - dynamicdns
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: digitalocean-dyndns
+    sources:
+    - https://github.com/tunix/digitalocean-dyndns
+    - https://github.com/billimek/billimek-charts
+    urls:
+    - https://github.com/billimek/billimek-charts/releases/download/digitalocean-dyndns-1.0.2/digitalocean-dyndns-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2020-02-23T13:57:18.626064618Z"
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 39d7db18a9f1d9d7b6905b7e24d12ce74fdd61afd272f404163cb09c71be2b27
