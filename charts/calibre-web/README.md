@@ -1,4 +1,15 @@
-# calibre-web
+# DEPRECATED - calibre-web
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/calibre-web
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/calibre-web
+```
+
+---
 
 This is a helm chart for [calibre-web](https://github.com/janeczku/calibre-web) utilizing the [Linuxserver.io calibre-web image](https://hub.docker.com/r/linuxserver/calibre-web)
 
