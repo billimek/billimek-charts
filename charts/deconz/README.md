@@ -1,4 +1,15 @@
-# deCONZ helm chart
+# DEPRECATED - deCONZ helm chart
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/deconz
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/deconz
+```
+
+---
 
 This is a helm chart for [deCONZ](https://www.dresden-elektronik.de/funk/software/deconz.html) based on the [container image provided by marthoc](https://hub.docker.com/r/marthoc/deconz/).
 
