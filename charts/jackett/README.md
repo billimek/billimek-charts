@@ -1,4 +1,15 @@
-# Jackett
+# DEPRECATED - Jackett
+
+**This chart has been deprecated and moved to its new home:**
+
+- **Chart location:** https://github.com/k8s-at-home/charts/tree/master/charts/jackett
+
+```console
+helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm install k8s-at-home/jackett
+```
+
+---
 
 This is a helm chart for [Jackett](https://github.com/Jackett/Jackett) leveraging the [Linuxserver.io image](https://hub.docker.com/r/linuxserver/jackett/)
 
