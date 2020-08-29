@@ -1,3 +1,5 @@
+This Helm chart is deprecated
+
 {{- if .Values.ingress.enabled }}
 You can get the map data under this URL:
 {{- range .Values.ingress.hosts }}
